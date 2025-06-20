@@ -1,21 +1,11 @@
-# 📌 Job API Server - Spring Boot + PostgreSQL
+# Job API Server - Spring Boot + PostgreSQL
 
 This project demonstrates a simple **Job Management API server** built with **Spring Boot**, integrated with **PostgreSQL via Docker**, and tested using **Postman**. The API allows you to create, retrieve, update, and delete job listings from a database.
 
----
-
-## ✅ Task Objective
-
-This project was created as part of a hands-on assignment to:
-
-- Design and implement at least **4 custom API endpoints**.
-- Integrate with a **PostgreSQL** database using Docker.
-- (Optional) Add a frontend to interact with the APIs.
-- Test the API with tools like **Postman** and document the development process.
 
 ---
 
-## 📂 Tech Stack
+## Tech Stack
 
 - **Backend:** Spring Boot (Java)
 - **Database:** PostgreSQL (Docker)
@@ -24,7 +14,7 @@ This project was created as part of a hands-on assignment to:
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 job-api/
@@ -46,7 +36,7 @@ job-api/
 
 ---
 
-## 🐳 PostgreSQL Docker Setup
+## PostgreSQL Docker Setup
 
 To start PostgreSQL using Docker:
 
@@ -63,7 +53,7 @@ This spins up a PostgreSQL container accessible at `localhost:5432`.
 
 ---
 
-## 🧩 Files of Interest
+## Files
 
 - `Job.java`: Entity representing a job record
 - `JobRepository.java`: JPA repository
@@ -75,7 +65,7 @@ This spins up a PostgreSQL container accessible at `localhost:5432`.
 
 ---
 
-## 📬 API Endpoints
+## API Endpoints
 
 | Method | Endpoint       | Description           |
 |--------|----------------|-----------------------|
@@ -86,7 +76,7 @@ This spins up a PostgreSQL container accessible at `localhost:5432`.
 
 ---
 
-## 🧪 Testing with Postman
+## Testing with Postman
 
 Each API has been tested with Postman. Below are screenshots of each step:
 
@@ -116,7 +106,7 @@ Each API has been tested with Postman. Below are screenshots of each step:
 
 ---
 
-## 🏃‍♂️ How to Run the Project
+## How to Run the Project
 
 ### 1. Clone the Repository
 ```bash
@@ -160,7 +150,7 @@ SELECT * FROM jobs;
 
 ---
 
-## 📄 Optional Frontend
+## Note
 
 Frontend implementation was not done as part of this task. However, APIs are ready for frontend integration with tools like React, Angular, etc.
 
@@ -168,11 +158,11 @@ Frontend implementation was not done as part of this task. However, APIs are rea
 
 ## 📌 Summary
 
-- ✅ 4 Custom CRUD API endpoints
-- ✅ PostgreSQL integration via Docker
-- ✅ End-to-end testing via Postman
-- ✅ Screenshots and command logs documented
-- ✅ GitHub project with clean structure and documentation
+-  4 Custom CRUD API endpoints
+-  PostgreSQL integration via Docker
+-  Testing via Postman
+-  Screenshots and command logs documented
+-  GitHub project with clean structure and documentation
 
 ---
 
