@@ -91,7 +91,7 @@ This spins up a PostgreSQL container accessible at `localhost:5432`.
 Each API has been tested with Postman. Below are screenshots of each step:
 
 1. **POST Request to Add Job**  
-   ![POST Job](screenshots/  post-in-action.png)
+   ![POST Job](screenshots/post-in-action.png)
 
 2. **GET After POST**  
    ![GET After POST](screenshots/result-after-post.png)
