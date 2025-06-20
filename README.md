@@ -156,7 +156,7 @@ Frontend implementation was not done as part of this task. However, APIs are rea
 
 ---
 
-## 📌 Summary
+## Summary
 
 -  4 Custom CRUD API endpoints
 -  PostgreSQL integration via Docker
@@ -165,5 +165,3 @@ Frontend implementation was not done as part of this task. However, APIs are rea
 -  GitHub project with clean structure and documentation
 
 ---
-
-Let me know if you’d like help with a frontend or CI setup next!
