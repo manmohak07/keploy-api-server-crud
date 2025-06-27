@@ -20,13 +20,11 @@ jobs:
           java-version: '17'
           distribution: 'temurin'
 
-      - name: Build project
-        run: ./mvnw clean install -DskipTests
+  
 
       - name: Start app in background
         run: |
-          nohup ./mvnw spring-boot:run & 
-          sleep 30
+          nohup mvn spring-boot:run
 
       - name: Install Keploy CLI
         run: |
