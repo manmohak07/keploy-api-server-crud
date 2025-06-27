@@ -1,0 +1,6 @@
+Screenshots folder for test coverage reports and logs.
+
+Upload your test coverage screenshots here:
+- jacoco-report-html-view.png
+- jacoco-logs.png  
+- unit-tests-log.png
